@@ -1,0 +1,107 @@
+body {
+    height: 800px;
+    width: 800px;
+    position: relative;
+    background-size: cover;
+    overflow: scroll;
+}
+
+* {
+    font-family: Brush Script MT, cursive;
+}
+
+.container-1 {
+    background-color: #FF4500;
+    width: 1400px;
+    height: 150px;
+}
+
+.container-1 h1 {
+    position: relative;
+    top: 2px;
+}
+
+.container-1 h2 {
+    position: relative;
+    top: -58px;
+    left: 600px;
+    font-size: 35px;
+}
+
+.container-1 h3 {
+    font-size: 35px;
+    position: relative;
+    top: -110px;
+    left: 1100px;
+}
+
+.container-2 {
+    position: relative;
+    top: 100px;
+    width: 750px;
+    height: 550px;
+    border-style: dashed;
+    transition: ease-in;
+    margin: 60px;
+}
+
+a.active,
+.container-2 a:hover {
+    color: sienna;
+    text-decoration: underline sienna;
+}
+
+.container-3 {
+    position: relative;
+    top: 750px;
+    left: 0px;
+    width: 1400px;
+    height: 350px;
+    border-style: dashed;
+}
+
+.container-3 p {
+    position: relative;
+    top: -8px;
+    left: -370px;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, -2px -2px 0 #ff0000, 2px -2px 0 #ff0000, -2px 2px 0 #ff0000, 2px 2px 0 #ff0000, -3px 0 0 #ff0000, 3px 0 0 #ff0000, 0 3px 0 #ff0000, 0 -3px 0 #ff0000;
+}
+
+.container-3 button {
+    margin: 30px;
+    position: relative;
+    left: 150px;
+    top: 120px;
+    font-size: 30px;
+    background-color: none;
+}
+
+.container-4 {
+    position: relative;
+    top: -190px;
+    left: 805px;
+    height: 550px;
+    width: 500px;
+    border-style: dashed;
+}
+
+.container-4 input {
+    margin: 50px;
+    text-decoration: underline;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    position: relative;
+    top: -260px;
+    left: 40px;
+}
+
+.container-4 button {
+    position: relative;
+    top: -345px;
+    left: 410px;
+    color: white;
+    background-color: blue;
+}
