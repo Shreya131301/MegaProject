@@ -1,0 +1,273 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* Headings */
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title Section */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    position: absolute;
+    right: 30%;
+    top: 23%;
+}
+
+
+/* Features Section */
+
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Footer Section */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* New Story Section */
+
+#new_story_section {
+    background-color: white;
+}
+
+.newStory h1 {
+    height: 100px;
+    color: black;
+    margin-left: 20px;
+}
+
+.newStory form {
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.newStory label {
+    display: block;
+    margin-top: 24px;
+    width: 2000px;
+    height: 100px;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+    right: 848px;
+}
+
+.newStory input {
+    display: block;
+    width: 600px;
+    margin: 10px 0;
+    padding: 8px;
+    position: relative;
+    top: -120px;
+}
+
+.newStory textarea {
+    display: block;
+    width: 900px;
+    height: 500px;
+    margin: 10px 0;
+    padding: 8px;
+    position: relative;
+    top: -95px;
+}
+
+.newStory button {
+    position: relative;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    padding: 6px;
+    border: 0;
+    font-size: 1.2em;
+    left: 230px;
+    cursor: pointer;
+    width: 100px;
+    margin: 40px;
+    top: -110px;
+}
+
+
+/* Story Display */
+
+.story h1 {
+    color: #ff4c68;
+}
+
+.story a {
+    display: block;
+    margin: 40px 0;
+    padding-left: 30px;
+    border-left: 6px solid #ff4c68;
+    color: black;
+}
+
+.story a:hover h3,
+.story a:hover p {
+    color: #ff4c68;
+    text-decoration: underline #ff4c68;
+}
+
+
+/* Story in Details */
+
+.openStory {
+    position: relative;
+}
+
+.addNewStory a {
+    color: #ff4c68;
+    border: 1px #ff4c68;
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF, -2px 0 0 #FFFFFF, 2px 0 0 #FFFFFF, 0 2px 0 #FFFFFF, 0 -2px 0 #FFFFFF, -2px -2px 0 #ff4c68, 2px -2px 0 #ff4c68, -2px 2px 0 #ff4c68, 2px 2px 0 #ff4c68, -3px 0 0 #ff4c68, 3px 0 0 #ff4c68, 0 3px 0 #ff4c68, 0 -3px 0 #ff4c68;
+}
+
+
+/* Contact */
+
+.feature-box-col-lg-4 {
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+}
+
+.feature-box-col-lg-4 img {
+    width: 230px;
+    height: 230px;
+}
