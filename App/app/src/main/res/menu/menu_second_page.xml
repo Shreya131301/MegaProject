@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CatalogActivity">
+    <item
+        android:title="siren for emergency"
+        android:id="@+id/play"
+        android:icon="@drawable/siren"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_delete_all_entries"
+        android:title="Delete All Contacts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        app:showAsAction="always" />
+
+
+
+
+
+</menu>
