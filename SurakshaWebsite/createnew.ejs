@@ -1,0 +1,40 @@
+<html lang="en">
+
+<%- include('./similar/head.ejs') %>
+
+    <body>
+
+        <section class="colored-section" id="title">
+
+            <div class="container-fluid">
+
+                <%- include('./similar/nav.ejs') %>
+
+                    <%- include('./similar/title.ejs') %>
+            </div>
+
+        </section>
+
+        <section class="new-story-section" id="new_story_section">
+
+            <div class="newStory">
+                <h1>Add your Story and inspire others :)</h1>
+                <form action="/Home/Stories" method="POST">
+
+                    <label for="info" id="info_label">Info about you and your Story</label>
+                    <input type="text" id="info" name="info" placeholder="Enter your name ...Don't worry, you can go anonymous as well ;)">
+                    <input type="text" id="details" name="details" placeholder="What is the incident about?" required>
+
+                    <textarea id="body" name="body" placeholder="Tell us your Story... We are with you in this"></textarea>
+
+                    <button class="postButton" id="post_button" style="background-color: green; color:white">Post</button>
+
+                </form>
+            </div>
+        </section>
+
+    </body>
+
+    <%- include('./similar/footer.ejs') %>
+
+</html>

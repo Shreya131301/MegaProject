@@ -1,0 +1,54 @@
+<html lang="en">
+
+<%- include('./similar/head.ejs') %>
+
+    <body>
+
+        <section class="colored-section" id="title">
+
+            <div class="container-fluid">
+
+                <%- include('./similar/nav.ejs') %>
+
+                    <%- include('./similar/title.ejs') %>
+            </div>
+        </section>
+        <section class="story-section" id="story-section">
+
+            <div class="story">
+
+                <h1> Stories From People </h1>
+
+                <div class="story-content">
+                    <% if (stories.length > 0) { %>
+                        <% stories.forEach(story => { %>
+                            <a class="story_link" href="/Home/Stories/<%= story._id %>">
+
+                                <h3 class="info">
+                                    <%= story.info %>
+                                </h3>
+                                <p class="body">
+                                    <%= story.details %>
+                                </p>
+                            </a>
+                            <% }) %>
+                                <% } else { %>
+                                    <p>There's no Story right Now. Add your story and become the first<br> contributor for this site.</p>
+                                    <% } %>
+                </div>
+                <nav class="addNew">
+                    <div class="addNewStory">
+                        <a href="/Home/Stories/AddYourStory">Post Your Story</a>
+                    </div>
+                </nav>
+
+            </div>
+            </div>
+
+        </section>
+
+    </body>
+
+    <%- include('./similar/footer.ejs') %>
+
+</html>
